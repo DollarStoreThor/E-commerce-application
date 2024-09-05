@@ -89,7 +89,7 @@ class Admin:
 
             
             
-            #attributes: category= "", name= "", brand= "", price= float, quantity= int.
+
             updatedProduct = Product(category=finalCategory, name= finalName, brand= finalBrand, price= finalPrice, quantity= finalQuantity)
             updatedProduct.print_info()
             verifiedProduct = input("'Y' or 'N'")
